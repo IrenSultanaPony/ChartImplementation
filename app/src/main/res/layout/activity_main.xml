@@ -28,35 +28,42 @@
                 android:gravity="center"
                 android:text="Different Type of Charts" />
 
-            <com.github.mikephil.charting.charts.BarChart
-                android:id="@+id/barchart"
+            <!--<com.github.mikephil.charting.charts.BarChart-->
+                <!--android:id="@+id/barchart"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="300dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+
+            <!--<com.github.mikephil.charting.charts.PieChart-->
+                <!--android:id="@+id/piechart"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="300dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+
+            <!--<com.github.mikephil.charting.charts.LineChart-->
+                <!--android:id="@+id/linechart"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="300dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+
+            <!--<com.github.mikephil.charting.charts.BubbleChart-->
+                <!--android:id="@+id/bubblechart"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="300dp"-->
+                <!--android:layout_marginTop="5dp"-->
+                <!--android:layout_marginBottom="5dp"/>-->
+            <com.github.mikephil.charting.charts.CombinedChart
+                android:id="@+id/chart"
+                android:layout_margin="5dp"
                 android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
+                android:layout_height="300dp">
 
-
-            <com.github.mikephil.charting.charts.PieChart
-                android:id="@+id/piechart"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
-
-
-            <com.github.mikephil.charting.charts.LineChart
-                android:id="@+id/linechart"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
-
-            <com.github.mikephil.charting.charts.BubbleChart
-                android:id="@+id/bubblechart"
-                android:layout_width="match_parent"
-                android:layout_height="300dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"/>
+            </com.github.mikephil.charting.charts.CombinedChart>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>
